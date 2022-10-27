@@ -1,5 +1,8 @@
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Author bulgakov = new Author("Булгаков");
+        Book masterAndMargarita = new Book("Мастер и Маргарита", bulgakov, 1966);
     }
 }
+
